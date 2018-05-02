@@ -11,7 +11,7 @@ To give you a head start, We will propose some problems in a hypothetical scenar
 |:----    |-----   |
 |Abstract Factory|	Creates an instance of several families of classes|
 |Builder	|Separates object construction from its representation|
-|[Factory Method](https://github.com/sdwang1/design-pattern/blob/master/2018/04/28/Factory-Pattern/index.html)	|Creates an instance of several derived classes|
+|[Factory Method](https://github.com/sdwang1/design-pattern/blob/master/Factory_Method/Factory_Pattern.md)	|Creates an instance of several derived classes|
 |Prototype	|A fully initialized instance to be copied or cloned|
 |Singleton	|A class of which only a single instance can exist|
 
