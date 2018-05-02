@@ -174,7 +174,9 @@ class ZhengzhouPizzaStore extends PizzaStore
 ```
 ## 设计原则
 工厂方法模式可以启发我们一个OO设计原则————**要依赖抽象，不要依赖具体类【Dependency Inversion Principle】**.
+
 这个原则听起来是不是很像“针对接口编程，不针对实现编程”？
-的确相似，然而这里更强调“抽象”，这个原则说明了：**不能让高层组件依赖低层组件，而且不管高层或低层组件，“两者”都应该依赖于抽象。** 比如本文章案例，PizzStore是“高层组件”，而pizza实现是“低层组件”，很清楚地，PizzaStore依赖这些具体Pizz类。如果不应用“依赖倒置原则”，pizzaStore在自己的orderPizza方法中，直接实例化这些具体类型，那么一个“非常依赖的pizzaStore”代码就如下所示：
+的确相似，然而这里更强调“抽象”，这个原则说明了：**不能让高层组件依赖低层组件，而且不管高层或低层组件，“两者”都应该依赖于抽象。** 
+比如本文章案例，PizzStore是“高层组件”，而pizza实现是“低层组件”，很清楚地，PizzaStore依赖这些具体Pizz类。如果不应用“依赖倒置原则”，pizzaStore在自己的orderPizza方法中，直接实例化这些具体类型，那么一个“非常依赖的pizzaStore”代码就如下所示：
 ![](https://github.com/sdwang1/design-pattern/blob/master/design-pattern/blogimg/Dependency_pizza_store.png)
 想要遵循依赖倒置原则，工厂方法并非是唯一的技巧，但却是最有威力的技巧之一。
