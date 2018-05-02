@@ -152,52 +152,30 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-README" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-Factory-Pattern" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/04/28/Factory-Pattern/">Factory Pattern</a>
+    </h1>
+  
+
+        
+        <a href="/2018/04/28/Factory-Pattern/" class="archive-article-date">
+  	<time datetime="2018-04-28T08:21:46.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-04-28</time>
+</a>
+        
+      </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="Design-Pattern"><a href="#Design-Pattern" class="headerlink" title="Design Pattern"></a>Design Pattern</h2><p>Design patterns are solutions to software design problems you find again and again in real-world application development. Patterns are about reusable designs and interactions of objects.<br>The 23 Gang of Four (GoF) patterns are generally considered the foundation for all other patterns. They are categorized in three groups: Creational, Structural, and Behavioral (for a complete list see below).<br>To give you a head start, We will propose some problems in a hypothetical scenario which help you understand these principles of Pattern Design. The php source code for each pattern is provided in 2 forms: structural and real-world. Structural code uses type names as defined in the pattern definition and UML diagrams. Real-world(hypothetical scenario) code provides real-world programming situations where you may use these patterns.<br>You can see most of these hypothetical scenario in 《Head First设计模式》.</p>
-<ul>
-<li>Creational Patterns</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">design pattern</th>
-<th>description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Abstract Factory</td>
-<td>Creates an instance of several families of classes</td>
-</tr>
-<tr>
-<td style="text-align:left">Builder</td>
-<td>Separates object construction from its representation</td>
-</tr>
-<tr>
-<td style="text-align:left">Factory Method</td>
-<td>Creates an instance of several derived classes</td>
-</tr>
-<tr>
-<td style="text-align:left">Prototype</td>
-<td>A fully initialized instance to be copied or cloned</td>
-</tr>
-<tr>
-<td style="text-align:left">Singleton</td>
-<td>A class of which only a single instance can exist</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li><p>Structural Patterns<br>|design pattern|description|<br>|:—-   |—–   |<br>|Adapter |Match interfaces of different classes  |<br>|Bridge |Separates an object’s interface from its implementation  |<br>|Composite  |A tree structure of simple and composite objects  |<br>|Decorator  |Add responsibilities to objects dynamically  |<br>|Facade  |A single class that represents an entire subsystem  |<br>|Flyweight  |A fine-grained instance used for efficient sharing  |<br>|Proxy  |An object representing another object  |</p>
-</li>
-<li><p>Behavioral Patterns<br>|design pattern|description|<br>|:—-   |—–   |<br>|Chain of Resp. |A way of passing a request between a chain of objects |<br>|Command |Encapsulate a command request as an object |<br>|Interpreter |A way to include language elements in a program |<br>|Iterator |Sequentially access the elements of a collection |<br>|Mediator |Defines simplified communication between classes |<br>|Memento  |Capture and restore an object’s internal state |<br>|Observer |    A way of notifying change to a number of classes |<br>|State |    Alter an object’s behavior when its state changes |<br>|Strategy |    Encapsulates an algorithm inside a class |<br>|Template |    Method    Defer the exact steps of an algorithm to a subclass |<br>|Visitor |    Defines a new operation to a class without change |</p>
-</li>
-</ul>
-
+        <h2 id="案例场景"><a href="#案例场景" class="headerlink" title="案例场景"></a>案例场景</h2><p>假设你有一个Pizza店，里面会卖一些不同风味的Pizza，比如榴莲Pizza，培根Pizza，芝士Pizza等等。作为OOPer，你应该知道 <strong>针对接口而非实现编程可以隔离掉以后系统可能发生的一大堆改变（因为针对接口而写，通过多态它可以与任何新类实现该接口）。</strong> 那么身为Pizza店主人，你的代码可能这么写：<br><img src="https://github.com/sdwang1/design-pattern/blogimg/origin_pizza_store.png" alt=""></p>
+        
+          <a class="article-more-a" href="/2018/04/28/Factory-Pattern/#more">more >></a>
+        
       
 
       
@@ -209,7 +187,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2018/04/28/README/">展开全文 >></a>
+          <a class="article-more-a" href="/2018/04/28/Factory-Pattern/">展开全文 >></a>
         </p>
       
 
