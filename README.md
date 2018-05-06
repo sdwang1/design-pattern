@@ -13,7 +13,7 @@ To give you a head start, We will propose some problems in a hypothetical scenar
 |Builder	|Separates object construction from its representation|
 |[Factory Method](https://github.com/sdwang1/design-pattern/blob/master/Factory_Method/Factory_Pattern.md)	|Creates an instance of several derived classes|
 |Prototype	|A fully initialized instance to be copied or cloned|
-|Singleton	|A class of which only a single instance can exist|
+|[Singleton](https://github.com/sdwang1/design-pattern/blob/master/Singleton_Pattern/Singleton_Pattern.md)	|A class of which only a single instance can exist|
 
 - Structural Patterns
 
