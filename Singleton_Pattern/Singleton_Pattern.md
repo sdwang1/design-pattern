@@ -5,6 +5,7 @@
 ## 定义单件模式
 **单件模式，确保一个类只有一个实例，并提供一个全局访问点。** 这种做法对资源敏感的对象特别重要。
 ![](https://github.com/sdwang1/design-pattern/blob/master/blogimg/Singleton_patter_uml.png)
+
 假设你有一个巧克力锅炉，锅炉做的事就是把巧克力和牛奶融合在一起，然后煮沸冷却以制成巧克力棒。你要努力阻止不好的事情发生，比如锅炉没放原料的空烧，锅炉已满还继续放原料或者排出了500L的未煮沸的混合物：
 ```php
 class ChocolateBoiler
