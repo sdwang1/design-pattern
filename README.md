@@ -19,7 +19,7 @@ To give you a head start, We will propose some problems in a hypothetical scenar
 
 |design pattern | description|
 |:----    |-----   |
-|Adapter	|Match interfaces of different classes|
+|[Adapter](https://github.com/sdwang1/design-pattern/blob/master/Adapter/Adapter_Pattern.md)	|Match interfaces of different classes|
 |Bridge	| Separates an object’s interface from its implementation|
 |Composite	|A tree structure of simple and composite objects|
 |Decorator	|Add responsibilities to objects dynamically|
