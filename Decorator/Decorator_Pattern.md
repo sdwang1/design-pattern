@@ -129,5 +129,3 @@ Q1: 如果将代码针对特定种类的具体组件（例如HouseBlend）做一
 
 
 
-blogimg/
-blogimg/Decorator_uml.png
