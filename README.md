@@ -22,7 +22,7 @@ To give you a head start, We will propose some problems in a hypothetical scenar
 |[Adapter](https://github.com/sdwang1/design-pattern/blob/master/Adapter/Adapter_Pattern.md)	|Match interfaces of different classes|
 |Bridge	| Separates an object’s interface from its implementation|
 |Composite	|A tree structure of simple and composite objects|
-|Decorator	|Add responsibilities to objects dynamically|
+|[Decorator](https://github.com/sdwang1/design-pattern/blob/master/Decorator/Decorator_Pattern.md)	|Add responsibilities to objects dynamically|
 |Facade	|A single class that represents an entire subsystem|
 |Flyweight	|A fine-grained instance used for efficient sharing|
 |Proxy	|An object representing another object|
